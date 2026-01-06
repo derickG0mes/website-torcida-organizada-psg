@@ -1,0 +1,38 @@
+header {
+    background-color: rgb(14, 27, 54);
+    font-size: 10rem;
+    width: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-menu li {
+    padding: 15px;
+}
+
+.nav-menu a {
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-size: 1.7rem;
+}
+
+.nav-menu a:hover {
+    color: rgb(227, 6, 19);
+}
+
+.nav-menu img {
+    position: absolute;
+    left: 22%;
+    top: 2%;
+    z-index: 1;
+}

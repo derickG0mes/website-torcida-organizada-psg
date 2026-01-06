@@ -1,0 +1,44 @@
+:root {
+    --neutral-2: rgb(250, 251, 252);
+    --neutral-5: rgb(242, 245, 248);
+    --neutral-10: rgb(230, 236, 241);
+    --neutral-13: rgb(222, 230, 236);
+    --neutral-20: rgb(204, 217, 226);
+    --neutral-40: rgb(153, 179, 198);
+    --neutral-60: rgb(79, 111, 135);
+    --neutral-80: rgb(106, 143, 171);
+    --neutral-white: rgb(255, 255, 255);
+    --bleu-paris: rgb(0, 64, 112);
+    --or-paris: #ceab5dff;
+    --rouge-paris: #e30613ff;
+    --red-20: #ffd0d9ff;
+    --dark-red: #8a1002ff;
+    --darkest-red: #2b0401ff;
+    --dark-blue: #141428ff;
+    --background-blue: #0e1b36ff;
+    --dark-gold: #a58b4cff;
+    --bleu-premium: #1a2b4cff;
+    --bleu-second-1: #232841ff;
+    --bleu-second-2: #004f91ff;
+    --bleu-hero: #0262a6ff;
+    --cold-blue: #0f3755ff;
+    --bright-silver: #f5f7faff;
+    --light-silver: #ebebf0ff;
+    --cold-grey: #e1e6f0ff;
+    --overlay-70: rgba(var(--dark-blue), .7);
+    --overlay-50: rgba(var(--dark-blue), .5);
+    --overlay-30: rgba(var(--dark-blue), .3);
+    --success-120: #156018ff;
+    --success-quiz-100: #0b9552ff;
+    --success-quiz-120: #165a2bff;
+    --success-100: #28b32dff;
+    --success-30: #cdf4ceff;
+    --warning-120: #66140fff;
+    --warning-100: #de2c21ff;
+    --warning-30: #f7cccaff;  
+}
+
+
+seta
+
+https://pt.pngtree.com/freepng/red-painted-arrow-marks_814637.html

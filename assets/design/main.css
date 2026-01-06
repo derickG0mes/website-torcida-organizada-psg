@@ -1,0 +1,144 @@
+main {
+    background-color: rgb(245, 247, 250);
+}
+
+/*mensagem-guerreiras-arquibancadas*/
+.container-mensagem-guerreiras {
+    margin: 30px auto 40px auto;
+    align-items: center;
+    max-width: 50%;
+}
+
+/* Sessão mensagem para as guerreiras das arquibancadas */
+.mensagem-torcida {
+    border-bottom: 3px solid rgb(227, 6, 19);
+}
+
+.mensagem-torcida > figure {
+    height: 700px;
+}
+
+.mensagem-torcida > figure > img {
+    height: 700px;
+    width: 100%;
+    filter: brightness(0.6);
+}
+
+.container-arquibancadas {
+    position: absolute;
+    top: 20rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.container-arquibancadas > figure > img {
+    position: absolute;
+    bottom: -20rem;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: brightness(1.5);
+}
+
+.container-arquibancadas h1 {
+    font-size: 7rem;
+}
+
+/* Sessão torcida do PSG */
+.torcida {
+    display: flex;
+    margin-bottom: 2rem;
+    color: white;
+    background: linear-gradient(150deg, rgb(14, 27, 54) 60%, rgb(26, 43, 76) 100%);
+}
+
+.torcida img {
+    border-radius: 10%;
+}
+
+.bandeiras-torcida img, .bandeiras-torcida-2 img {
+    position: absolute;
+    object-fit: cover;
+    background-size: contain;
+    top: 164.5rem;
+    width: 300px;
+    height: 400px;
+}
+
+.bandeiras-torcida img {
+    left: 14rem;
+}
+
+.bandeiras-torcida-2 img {
+    right: 14rem;
+}
+
+.texto-torcida {
+    margin: 30px auto;
+    align-items: center;
+    max-width: 50%;
+}
+
+/* Momentos marcantes */
+.section-momentos-marcantes {
+    margin: 30px auto;
+    padding: 0 0 2rem;
+}
+
+.section-momentos-marcantes img {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.container-imagem-momentos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    gap: 20px;
+}
+
+.container-imagem-momentos figcaption {
+    margin: 15px;
+    align-items: center;
+    font-family: 'Montserrat', cursive;
+    font-size: 1.7rem;
+}
+
+.container-imagem-momentos span {
+    font-size: 1.8rem;
+}
+
+.container-imagens {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+
+.container-imagens img {
+    border-radius: 10%;
+}
+
+/*Sessão AÇÕES E IMPACTOS*/
+.section-acao-impacto {
+    margin: 30px auto;
+    padding: 0 0 3rem;
+}
+
+.texto-acoes-impactos {
+    margin: 30px auto;
+    align-items: center;
+    max-width: 50%;
+}
+
+.texto-acoes-impactos span {
+    color: rgb(227, 6, 19);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.texto-acoes-impactos ul {
+    align-items: center;
+}

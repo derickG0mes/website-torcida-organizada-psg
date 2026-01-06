@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+main {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.section-elenco {
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+    background-color: white;
+    border: none;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+.fileira-players {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    border: none;
+
+    /* Limita a quantidade de jogadores por linha */
+    max-width: 1300px;
+    margin: auto;
+}
+
+.container-player {
+    position: relative;
+}
+
+.card-elenco {
+    height: 327px;
+    width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.568);
+    background-color: rgba(204, 217, 226, 0.397);
+    cursor: pointer;
+}
+
+/* BACKGORUND JOGADORAS */
+.card-Kiedrzynek {
+    background-image: url(../../image/elenco/Card-25-26-Kiedrzynek_sf4pzu.png);
+}
+
+.card-Samoura {
+    background-image: url(../../image/elenco/Card-25-26-Samoura_bvybwx.png);
+}
+
+.card-Dunn {
+    background-image: url(../../image/elenco/Card-25-26-Dunn_jlvvo4.png);
+}
+
+.card-Dudek {
+    background-image: url(../../image/elenco/Card-25-26-Dudek_juwtzf.png);
+}
+
+.card-DeAlmeida {
+    background-image: url(../../image/elenco/Card-25-26-DeAlmeida_av44ew.png);
+}
+
+.card-Echegini {
+    background-image: url(../../image/elenco/Card-25-26-Echegini_adnsdw.png);
+}
+
+.card-Karchaoui {
+    background-image: url(../../image/elenco/Card-25-26-Karchaoui_ajkjhk.png);
+}
+
+.card-Yaya {
+    background-image: url(../../image/elenco/Card-25-26-Vitoria_en4dsy.png);
+}
+
+.card-Dorsin {
+    background-image: url(../../image/elenco/Card-25-26-Dorsin_kunycq.png);
+}
+
+.card-Ajibade {
+    background-image: url(../../image/elenco/Card-25-26-Ajibade_ylvgbs.png);
+}
+
+.card-Jourde {
+    background-image: url(../../image/elenco/Card-25-26-Jourde_fytoih.png);
+}
+
+.card-Isabela {
+    background-image: url(../../image/elenco/Card-25-26-Isabela_hzlvtm.png);
+}
+
+.card-Groenen {
+    background-image: url(../../image/elenco/Card-25-26-Groenen_jzlus7.png);
+}
+
+.card-Leuchter {
+    background-image: url(../../image/elenco/Card-25-26-Leuchter_sb7n3a.png);
+}
+
+.card-Gaetino {
+    background-image: url(../../image/elenco/Card-25-26-Gaetino_ugmse9.png);
+}
+
+.card-ElimbiGilbert {
+    background-image: url(../../image/elenco/Card-25-26-Elimbi_cexjr1.png);
+}
+
+.card-Graziani {
+    background-image: url(../../image/elenco/Card-25-26-Graziani_ihn7jc.png);
+}
+
+.card-Fatier {
+    background-image: url(../../image/elenco/Card-25-26-Fatier_ffxxoi.png);
+}
+
+.card-Benera {
+    background-image: url(../../image/elenco/Card-25-26-Benera_u7nk74.png);
+}
+
+.card-Diarra {
+    background-image: url(../../image/elenco/Card-25-26-Diarra_jz9xsb.png);
+}
+
+.card-Ebayilin {
+    background-image: url(../../image/elenco/Card-25-26-Ebayilin_bjry1u.png);
+}
+
+.card-Earps {
+    background-image: url(../../image/elenco/Card-25-26-Earps_j76mna.png);
+}
+
+.card-LeGuilly {
+    background-image: url(../../image/elenco/Card-25-26-LeGuilly_famezr.png);
+}
+
+.card-Mbock {
+    background-image: url(../../image/elenco/Card-25-26-Mbock_goobic.png);
+}
+
+.card-Kanjinga {
+    background-image: url(../../image/elenco/Card-25-26-Kanjinga_k3r67q.png);
+}
+
+.card-Toussaint {
+    background-image: url(../../image/elenco/Card-25-26-Toussaint_rgf4ir.png);
+}
+
+.card-Rossi {
+    background-image: url(../../image/elenco/Card-25-26-Rossi_i2woxz.png);
+}
+
+.card-Carmona {
+    background-image: url(../../image/elenco/Card-25-26-Carmona_gpkeho.png);
+}
+
+/* NUMERAÇÃO DAS JOGADORAS */
+.numero-player {
+    font-family: 'Contrail One', sans-serif;
+    font-weight: normal;
+    letter-spacing: 1;
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 5%;
+    left: 8%;
+}
+
+/* DESCRIÇÃO DAS JOGADORAS, NOME, SOBRENOME E POSIÇÃO */
+.descricao-player {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1;
+
+    /*  Layout  */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+}
+
+.descricao-player > .nome-player {
+    margin-left: 7.5%;
+    font-size: 1.3rem;
+    color: rgb(106, 143, 171);
+    text-transform: uppercase;
+}
+
+.descricao-player > .sobrenome-player {
+    margin-left: 13%;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #1a2b4cff;
+    text-transform: uppercase;
+}
+
+.descricao-player > .posicao-player {
+    position: relative;
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: rgb(106, 143, 171);
+}
+
+@media screen and (min-width: 344px) and (max-width:730px) {
+    html {
+        padding: 0;
+        margin: 0;
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+    }
+
+    body, header, main, footer {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+}

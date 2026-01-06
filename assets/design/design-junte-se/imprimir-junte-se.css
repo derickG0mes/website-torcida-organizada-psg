@@ -1,0 +1,67 @@
+* {
+    padding: 10px;
+    margin: 8px;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    font-size: 6rem;
+    line-height: 1.5rem;
+}
+
+header {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Main */
+.campo-nome, .campo-email, .campo-idade {
+    print-color-adjust: exact;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Muda a FONTE, COR, TAMANHO e a INDENTAÇÃO do texto dentro dos inputs */
+input[id="nome"], input[id="email"], input[id="idade"] {
+    print-color-adjust: exact;
+    font-size: 1.6rem;
+    text-indent: 9px;
+}
+
+/* Muda o direcionamento das LABELS e INPUTS */
+label, input {
+    print-color-adjust: exact;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.3rem;
+}
+
+/* BOÕES DE CONFIMAR E CANCELAR */
+.container-botoes {
+    print-color-adjust: exact;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+
+
+/* Rodapé da página */
+footer .contatos, footer .Redes-sociais, footer img {
+    display: none;
+}
+
+footer .direito {
+    print-color-adjust: exact;
+    background: rgb(0, 64, 112);;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

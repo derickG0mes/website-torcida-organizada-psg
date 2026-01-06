@@ -1,0 +1,63 @@
+* {
+    padding: 10px;
+    margin: 8px;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    font-size: 6rem;
+    line-height: 1.5rem;
+}
+
+header, .banner, main img{
+    display: none;
+}
+
+h1 {
+    print-color-adjust: exact;
+    margin: none;
+    padding: none;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.section-momentos-marcantes figcaption, .section-momentos-marcantes span {
+    print-color-adjust: exact;
+    font-size: 1.5rem;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
+.container-arquibancadas span {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.texto-acoes-impactos span {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.mobile-banner, .mobile-container-imagem-momentos {
+    display: none;
+}
+
+footer .contatos, footer .Redes-sociais, footer img {
+    display: none;
+}
+
+footer .direito {
+    print-color-adjust: exact;
+    background: rgb(0, 64, 112);;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

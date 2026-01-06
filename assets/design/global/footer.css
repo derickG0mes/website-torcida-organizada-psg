@@ -1,0 +1,98 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer > section > div > nav > a > img {
+    padding: 8px;
+    background: linear-gradient(150deg, rgb(0, 64, 112), rgb(0, 64, 112));
+    border-radius: 10px;
+    transition: background 5s ease, transform 0.3s ease;
+}
+
+footer > section > div > nav > a > img:hover {
+    background: linear-gradient(150deg, rgb(0, 79, 145) 20%, rgb(227, 6, 19) 100%);
+    transform: scale(1.2); /* opcional: leve aumento */
+}
+
+footer span {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/*LOGO FOOTER*/
+.logo-footer {
+    position: relative;
+    top: 2rem;
+}
+
+/* SESSÃO REDES SOCIAIS */
+.container-redes {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
+}
+
+.Redes-sociais {
+    margin-top: 35px;
+    width: 280px;
+}
+
+/* SESSÃO CONTATO */
+.container-contatos {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
+
+}
+
+.contatos {
+    margin-top: 35px;
+    width: 280px;
+}
+
+/* SESSÃO DIREITO */
+.direito {
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 344px) and (max-width:730px) {
+    html {
+        padding: 0;
+        margin: 0;
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+    }
+
+    body, header, main, footer {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

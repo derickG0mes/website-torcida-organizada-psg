@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background: linear-gradient(170deg, #0E1B36 45%, #0F2946 58%, #0F304D 75%, #0F3755 100%);
+}
+
+header {
+    background: none;
+}
+
+main {
+    min-height: 70vh;
+}
+
+.section-formulario {
+    padding-top: 2.5%;
+    border: none;
+}
+
+h1 {
+    font-size: 4.8rem;
+    color: white;
+}
+
+/* Alinha o container do formulário */
+.container-formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.formulario {
+    background-color: white;
+    border-radius: 30px;
+    height: 539px;
+    width: 424px;
+}
+
+/* Muda o direcionamento das LABELS e INPUTS */
+label, input {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.3rem;
+}
+
+/* Muda o estilo dos LABELS */
+.campo-nome>label {
+    margin: 42px 53px 0px 55px;
+}
+
+.campo-email>label, .campo-idade>label {
+    margin: 27px 53px 0px 55px;
+}
+
+/* Muda o estilo dos INPUTS */
+.campo-nome input, .campo-email input, .campo-idade input {
+    margin: 8px 53px 0px 45px;
+    height: 50px;
+    width: 330px;
+    border: 5px solid #CEAB5D;
+    border-radius: 20px;
+    padding: 0px 0px 0px 4px;
+    background-color: #141428;
+}
+
+/* Muda o estilo do PLACEHOLDER */
+input::placeholder {
+    color: #CEAB5D;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Muda a FONTE, COR, TAMANHO e a INDENTAÇÃO do texto dentro dos inputs */
+input[id="nome"], input[id="email"], input[id="idade"] {
+    font-family: 'Montserrat', cursive;
+    color: white;
+    font-size: 1.6rem;
+    text-indent: 9px;
+}
+
+/* Alinha os botões */
+.container-botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Muda o estilo dos BOTÕES */
+button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 37px;
+    width: 149px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.3rem;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.botao-confirmar button {
+    background-color: #141428;
+}
+
+.botao-cancelar button {
+    background-color: #E30613;
+}
+
+@media screen and (min-width: 344px) and (max-width: 430px) {
+    html {
+        padding: 0;
+        margin: 0;
+        font-size: 55%;
+        scroll-behavior: smooth;
+    }
+
+    body, header, main, footer {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3.8rem;
+    }
+    .section-formulario {
+        padding-top: 5%;
+    }
+
+    .formulario {
+        width: 300px;
+        height: 600px;
+    }
+
+    .campo-nome>label {
+        margin: 30px 30px 0px 30px;
+    }
+
+    .campo-email>label, .campo-idade>label {
+        margin: 20px 30px 0px 30px; 
+    }
+
+    .campo-nome input, .campo-email input, .campo-idade input {
+        width: 220px;
+    }
+
+    .container-botoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-botoes button {
+        margin: 10px 0px;
+    }
+
+
+}
